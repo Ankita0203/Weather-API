@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+  background-color: #beebe6;
+background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.37' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.card {
+  border-radius: 15px;
+  background: #ffffffcc;
+  backdrop-filter: blur(10px);
+}
+
+#weatherResult h3 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #0077b6;
+}
+
+#weatherDescription {
+  text-transform: capitalize;
+}
+
+#temperature {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff6f00;
+}
+
+#humidity, #wind {
+  font-size: 1.1rem;
+}
+
+input#cityInput {
+  border-radius: 8px 0 0 8px;
+}
+
+button.btn-primary {
+  border-radius: 0 8px 8px 0;
+  background-color: #0077b6;
+  border-color: #0077b6;
+}
+
+button.btn-primary:hover {
+  background-color: #005f8a;
+}
+
+#historyList li {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#historyList li:hover {
+  background-color: #e0f0ff;
+}
+
+.alert {
+  border-radius: 10px;
+}
